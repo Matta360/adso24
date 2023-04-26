@@ -8,10 +8,11 @@ $nota3 = readline("nota 3:");
 $nota4 = readline("nota 1:");
 
 $promedio = $nota1 + $nota2 + $nota3 + $nota4;
+$total = $promedio / 4;
 
-if ($promedio >=3.0) {
-    echo $promedio, "aprobado";
-}elseif ($promedio <=3.0){
-    echo $promedio, "no aprobado";
+if ($total>=3.0) {
+    echo $total, "aprobado";
+}elseif ($total <=3.0){
+    echo $total, "no aprobado";
 }
 ?>
