@@ -1,0 +1,29 @@
+
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: antiquewhite;
+    margin: 200px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   
+}
+.titulo{
+    background-color: aqua;
+    margin: 20px 10px;
+    padding: 60px 20px;
+    justify-items: end;
+}
+.container-formulario{
+    background-color: aquamarine;
+}
+label{
+    background-color: bisque;
+}
+input{
+    background-color: blanchedalmond;
+}
